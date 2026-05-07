@@ -19,13 +19,7 @@ const CityInfoSection = ({ data }) => {
             Weather Conditions
           </p>
           <div className="flex items-center gap-2 mt-1">
-            {/* <img
-              // src={`https:${current.condition.icon}`}
-              // alt={current.condition.text}
-              className="w-8 h-8"
-            /> */}
             <span className="text-sm text-gray-600 dark:text-gray-300 font-display">
-              {/* {current.condition.text} */}
             </span>
           </div>
         </div>
