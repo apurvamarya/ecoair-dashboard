@@ -43,8 +43,8 @@ const CityInfoSection = ({ data }) => {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 pt-5 border-t border-gray-100 dark:border-oled-border">
         <StatCell label="Humidity" value={`${current.humidity}%`} />
         <StatCell label="Wind" value={`${current.wind_kph}`} sub="km/h" />
-        <StatCell label="UV Index" value={current.uv} />
-        <StatCell label="Visibility" value={`${current.vis_km}`} sub="km" />
+        <StatCell label="Wind Direction" value={current.wind_degree} sub="deg °" />
+        <StatCell label="Atmospheric Pressure" value={`${current.pressure_mb}`} sub="mmHg" />
       </div>
 
       {/* Coordinates */}

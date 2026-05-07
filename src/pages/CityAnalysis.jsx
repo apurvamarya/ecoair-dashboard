@@ -29,7 +29,7 @@ const CityAnalysis = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
-      {/* Breadcrumb */}
+
       <nav className="flex items-center gap-2 mb-6 text-xs font-display">
         <Link
           to="/"
