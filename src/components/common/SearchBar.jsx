@@ -25,7 +25,12 @@ const SearchBar = ({ compact = false, autoFocus = false }) => {
 
   const handleSubmit = useCallback((e) => {
     e.preventDefault()
-    const trimmed = query.trim()
+
+    let trimmed = query.trim()
+    
+    if (trimmed.toLowerCase() === 'delhi') {
+      trimmed = 'delhi, india'
+    }
 
     if (!trimmed) {
       setInputError('Please enter a city name.')
