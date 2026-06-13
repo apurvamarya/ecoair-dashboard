@@ -6,7 +6,7 @@ A production-ready React dashboard for real-time air quality analysis of any cit
 
 - 🌍 **Search any city** — real-time air quality data for any location worldwide
 - 📊 **Recharts visualization** — pollutant bar charts (PM2.5, PM10, CO)
-- 🌗 **OLED Dark Mode** — true black (#000000) dark mode with smooth transitions, persisted to localStorage
+- 🌗 **OLED Dark Mode** — true black dark mode with smooth transitions, persisted to localStorage
 - ♻️ **Auto-refresh** — data refreshes every 5 minutes automatically
 - ⚡ **Debounced search** — 500ms debounce prevents excessive API calls
 - 🧩 **Context API** — ThemeContext, DataContext (caching), SearchContext
@@ -17,14 +17,14 @@ A production-ready React dashboard for real-time air quality analysis of any cit
 
 | Concern | Choice |
 |---|---|
-| Framework | React 18 (functional components + hooks) |
+| Framework | React 18 |
 | Build Tool | Vite |
 | Language | JavaScript ES6+ / JSX |
 | Routing | React Router v6 |
-| Styling | Tailwind CSS (utility-only) |
+| Styling | Tailwind CSS |
 | Charts | Recharts |
-| HTTP | Fetch API (no Axios) |
-| State | Context API (no Redux) |
+| HTTP | Fetch API |
+| State | Context API |
 | API | WeatherAPI.com |
 
 ## 📁 File Structure
@@ -53,9 +53,9 @@ ecoair-dashboard/
 
 ### Installation
 
-```bash
-# 1. Extract the ZIP
-unzip ecoair-dashboard.zip
+# 1. Clone the repo
+git clone https://github.com/apurvamarya/ecoair-dashboard.git
+
 cd ecoair-dashboard
 
 # 2. Install dependencies
@@ -63,7 +63,6 @@ npm install
 
 # 3. Start dev server
 npm run dev
-```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
@@ -112,7 +111,7 @@ vercel --prod
 3. Import your GitHub repository
 4. Vercel auto-detects Vite — click **Deploy**
 
-**Build settings (auto-detected):**
+**Build settings:**
 - Framework: Vite
 - Build command: `npm run build`
 - Output directory: `dist`
