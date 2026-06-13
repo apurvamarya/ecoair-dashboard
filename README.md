@@ -128,15 +128,6 @@ vercel --prod
 | Border | `#E5E7EB` | `#1A1A1A` |
 | Card BG | `#FFFFFF` | `#111111` |
 
-## 📋 Module Checklist
-
-- [x] **Module 1** — useEffect: mount fetch, city change re-fetch, cleanup AbortController
-- [x] **Module 2** — Forms: controlled input, onSubmit, validation, children wrapper
-- [x] **Module 3** — React Router v6: BrowserRouter, Routes, useParams, useNavigate, NavLink
-- [x] **Module 4** — Advanced Hooks: useRef (abort, debounce timer), useMemo (sorted pollutants), useCallback (handlers)
-- [x] **Module 5** — API: async/await Fetch, loading state, 404 handling, network errors
-- [x] **Module 6** — Context API: ThemeContext, DataContext, SearchContext
-- [x] **Module 7** — Performance: useDebounce (500ms), setInterval auto-refresh (5min), cleanup
 
 ---
 
