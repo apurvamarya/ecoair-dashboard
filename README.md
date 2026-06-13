@@ -2,6 +2,10 @@
 
 A production-ready React dashboard for real-time air quality analysis of any city globally. Built with a minimalist, premium aesthetic featuring OLED dark mode support.
 
+## 🖥️ Application URL
+
+https://ecoair-apurvamarya.vercel.app/
+
 ## ✨ Features
 
 - 🌍 **Search any city** — real-time air quality data for any location worldwide
