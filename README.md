@@ -133,5 +133,3 @@ vercel --prod
 
 
 ---
-
-Built with ❤️ using React + Vite + Tailwind CSS
