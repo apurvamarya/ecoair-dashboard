@@ -1,5 +1,5 @@
 export const API_BASE_URL = 'https://api.weatherapi.com/v1/current.json'
-export const API_KEY = '5a2e90b65af04c8e9d682732262402'
+export const API_KEY = ''
 export const DEFAULT_CITY = 'London'
 export const REFRESH_INTERVAL = 300000 // 5 minutes in ms
 export const DEBOUNCE_DELAY = 500 // ms
