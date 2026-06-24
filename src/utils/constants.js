@@ -1,6 +1,5 @@
 export const API_BASE_URL = 'https://api.weatherapi.com/v1/current.json'
-export const API_KEY = ''
-export const DEFAULT_CITY = 'London'
+export const API_KEY = import.meta.env.VITE_WEATHER_API_KEY
 export const REFRESH_INTERVAL = 300000 // 5 minutes in ms
 export const DEBOUNCE_DELAY = 500 // ms
 
